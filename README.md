@@ -22,22 +22,24 @@ Each parametric script calls a central helper module, paraStudy.py, which runs t
 The Rayleigh–Plesset equation describes the radial dynamics of a spherical bubble in an incompressible fluid.  
 It is given by:
 
+$$
 \[
 \rho \left( R \ddot{R} + \frac{3}{2}\dot{R}^2 \right)
 = P_B(t) - P_\infty(t)
 - 4\mu \frac{\dot{R}}{R}
 - \frac{2\sigma}{R}
 \]
+$$
 
 Where:
 
-- \( R(t) \) = bubble radius  
-- \( \dot{R} \) = first time derivative (bubble wall velocity)  
-- \( \ddot{R} \) = second time derivative (bubble wall acceleration)  
-- \( \rho \) = liquid density  
-- \( \mu \) = dynamic viscosity  
-- \( \sigma \) = surface tension  
-- \( P_B(t) \) = pressure inside the bubble  
-- \( P_\infty(t) \) = far-field (ambient or driving) liquid pressure  
+- $\( R(t) \)$ = bubble radius  
+- $\( \dot{R} \)$ = first time derivative (bubble wall velocity)  
+- $\( \ddot{R} \)$ = second time derivative (bubble wall acceleration)  
+- $\( \rho \)$ = liquid density  
+- $\( \mu \)$ = dynamic viscosity  
+- $\( \sigma \)$ = surface tension  
+- $\( P_B(t) \)$ = pressure inside the bubble  
+- $\( P_\infty(t) \)$ = far-field (ambient or driving) liquid pressure  
 
 This nonlinear ODE governs cavitation, bubble growth, and collapse under varying physical conditions.
