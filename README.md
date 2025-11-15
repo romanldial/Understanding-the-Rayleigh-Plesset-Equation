@@ -1,4 +1,4 @@
-# Understanding-the-Rayleigh-Plesset-Equation
+# Understanding the Rayleigh-Plesset Equation
 This is where I will document the code for visualizing understanding the generalized Rayleigh-Plesset Equation. 
 
 This project provides a set of Python tools for modeling bubble dynamics using the Rayleigh–Plesset equation, which governs the radius of a spherical bubble in an infinite body of liquid over time.
