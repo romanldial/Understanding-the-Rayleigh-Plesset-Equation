@@ -9,7 +9,7 @@ The repository includes a program rp_bubble.py that:
   - Let's the user choose cavitation or expansion behavior.
   - Plots the resulting bubble radius R(t) for a visualization of bubble cavitation.
 
-A parametric study suite that explores how changes in:
+Parametric studys including: rp_para_radius.py, rp_para_pressure.py, rp_para_viscosity.py, rp_para_velocity.py, rp_para_stension.py, rp_para_density.py, that explore changes in:
 
   - radius, pressure, viscosity, velocity,
   - surface tension, and density
@@ -25,23 +25,21 @@ It is given by:
 $$
 \frac{p_B(t) - p_\infty(t)}{\rho_L}
 =
-R\,\frac{d^2R}{dt^2}
-+ \frac{3}{2}\left(\frac{dR}{dt}\right)^2
-+ \frac{4\nu_L}{R}\frac{dR}{dt}
+R\,\ddot{R}
++ \frac{3}{2}\dot{R}^2
++ \frac{4\nu_L}{R}\dot{R}
 + \frac{2S}{\rho_L R}
 $$
 
-
 ### Where:
+- $\( R(t) \)$ — bubble radius  
+- $\( \dot{R} = \frac{dR}{dt} \)$ — bubble wall velocity  
+- $\( \ddot{R} = \frac{d^2R}{dt^2} \)$ — bubble wall acceleration  
+- $\( \rho_L \)$ — liquid density  
+- $\( \nu_L \)$ — kinematic viscosity  
+- $\( S \)$ — surface tension  
+- $\( p_B(t) \)$ — pressure inside the bubble  
+- $\( p_\infty(t) \)$ — far-field (ambient) pressure  
 
-- \( R(t) \) — bubble radius  
-- \( \dot{R} = \frac{dR}{dt} \) — bubble wall velocity  
-- \( \ddot{R} = \frac{d^2R}{dt^2} \) — bubble wall acceleration  
-- \( \rho_L \) — liquid density  
-- \( \nu_L \) — kinematic viscosity of the liquid  
-- \( S \) — surface tension  
-- \( p_B(t) \) — pressure inside the bubble  
-- \( p_\infty(t) \) — far-field (ambient) liquid pressure  
 
-
-This nonlinear ODE governs cavitation, bubble growth, and collapse under varying physical conditions.
+This 2nd Order nonlinear ODE governs cavitation, bubble growth, and collapse under varying physical conditions.
