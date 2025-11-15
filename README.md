@@ -23,12 +23,8 @@ The Rayleigh–Plesset equation describes the radial dynamics of a spherical bub
 It is given by:
 
 $$
-\[
-\rho \left( R \ddot{R} + \frac{3}{2}\dot{R}^2 \right)
-= P_B(t) - P_\infty(t)
-- 4\mu \frac{\dot{R}}{R}
-- \frac{2\sigma}{R}
-\]
+\rho\!\left(R\ddot{R} + \tfrac{3}{2}\dot{R}^2\right)
+= P_B(t) - P_\infty(t) - 4\mu \frac{\dot{R}}{R} - \frac{2\sigma}{R}
 $$
 
 Where:
