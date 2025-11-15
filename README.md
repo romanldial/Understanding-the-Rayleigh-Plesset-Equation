@@ -23,19 +23,25 @@ The Rayleigh–Plesset equation describes the radial dynamics of a spherical bub
 It is given by:
 
 $$
-\rho\!\left(R\ddot{R} + \tfrac{3}{2}\dot{R}^2\right)
-= P_B(t) - P_\infty(t) - 4\mu \frac{\dot{R}}{R} - \frac{2\sigma}{R}
+\frac{p_B(t) - p_\infty(t)}{\rho_L}
+=
+R\,\frac{d^2R}{dt^2}
++ \frac{3}{2}\left(\frac{dR}{dt}\right)^2
++ \frac{4\nu_L}{R}\frac{dR}{dt}
++ \frac{2S}{\rho_L R}
 $$
 
-Where:
 
-- $\( R(t) \)$ = bubble radius  
-- $\( \dot{R} \)$ = first time derivative (bubble wall velocity)  
-- $\( \ddot{R} \)$ = second time derivative (bubble wall acceleration)  
-- $\( \rho \)$ = liquid density  
-- $\( \mu \)$ = dynamic viscosity  
-- $\( \sigma \)$ = surface tension  
-- $\( P_B(t) \)$ = pressure inside the bubble  
-- $\( P_\infty(t) \)$ = far-field (ambient or driving) liquid pressure  
+### Where:
+
+- \( R(t) \) — bubble radius  
+- \( \dot{R} = \frac{dR}{dt} \) — bubble wall velocity  
+- \( \ddot{R} = \frac{d^2R}{dt^2} \) — bubble wall acceleration  
+- \( \rho_L \) — liquid density  
+- \( \nu_L \) — kinematic viscosity of the liquid  
+- \( S \) — surface tension  
+- \( p_B(t) \) — pressure inside the bubble  
+- \( p_\infty(t) \) — far-field (ambient) liquid pressure  
+
 
 This nonlinear ODE governs cavitation, bubble growth, and collapse under varying physical conditions.
