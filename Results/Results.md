@@ -1,14 +1,14 @@
 ## [rp_bubble.py](rp_bubble.py)
 ![Expansion Evolition](images/Screenshot%202025-11-16%20150917.png)
- ![Collapse Evolution](images/Screenshot%202025-11-16%20159370.png)
+ ![Collapse Evolution](images/Screenshot%202025-11-16%20150937.png)
 This file plots a single general solution of the Rayleigh–Plesset equation, providing a visualization for $R(t)$ in both expansion and collapse. 
 
 ## [rp_para_radius.py](rp_para_radius.py)
-![Radius Expansion Parametric Study](images/Screenshot%202025-11-16%20150102.png) ![Radius Collapse Parametric Study](images/Screenshot%202025-11-16%20165000.png)
+![Radius Expansion Parametric Study](images/Screenshot%202025-11-16%20152102.png) ![Radius Collapse Parametric Study](images/Screenshot%202025-11-16%20165000.png)
 This file tests different radii between a minimum and maximum and plots their behavior as $R(t)$. This tests the sensitivity of $R_0$. For the 1st plot (expansion) we can conclude that it takes longer for the bubble to evolve given a larger initial radius. For the 2nd plot (collapse) we can conclude that it takes longer for the bubble to collapse given a larger initial radius. Given static initial parameters of the fluid, increasing the radius will increase both evolution times of the bubble. 
 
-## ![rp_para_velocity.py](rp_para_velocity.py)
-![Velocity Parametric Study]()
+## [rp_para_velocity.py](rp_para_velocity.py)
+![Velocity Parametric Study](images/Screenshot%202025-11-16%20152214.png)
 This file tests different initial velocities of a bubble to test the sensitivity of the velocity variable, $\dot{R}$. For the case tested here, from the spread of $R(t)$ plots we can conclude that the solution $R(t)$ is not sensitive to the velocity variable. However, if the pressure or viscosity are small for the fluid, the solution would be sensitive to the initial velocity.
 
 ## [rp_para_density.py](rp_para_density.py)
