@@ -1,5 +1,5 @@
 ## [rp_bubble.py](rp_bubble.py)
-[Expansion Evoulition](Results/images/Screenshot%202025-11-16%20150917.png.png) [Collapse Evolution](Results/images/Screenshot%202025-11-16%20150937.png)
+[Expansion Evoulition](images/Screenshot%202025-11-16%20150917.png.png) [Collapse Evolution](Results/images/Screenshot%202025-11-16%20150937.png)
 This file plots a single general solution of the Rayleigh–Plesset equation, providing a visualization for $R(t)$ in both expansion and collapse. 
 
 ## [rp_para_radius.py](rp_para_radius.py)
