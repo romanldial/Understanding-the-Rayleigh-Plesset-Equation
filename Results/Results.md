@@ -1,4 +1,4 @@
-## [rp_bubble.py](rp_bubble.py)
+## [rp_bubble.py](Python%20Files/rp_bubble.py)
 <div style="display: flex; gap: 10px; margin-bottom: 20px;">
   <img src="images/Screenshot%202025-11-16%20150917.png" alt="Expansion Evolution" width="300">
   <img src="images/Screenshot%202025-11-16%20150937.png" alt="Collapse Evolution" width="300">
@@ -6,7 +6,7 @@
 
 This file plots a single general solution of the Rayleigh–Plesset equation, providing a visualization for $R(t)$ in both expansion and collapse.
 
-## [rp_para_radius.py](rp_para_radius.py)
+## [rp_para_radius.py](Python%20Files/rp_para_radius.py)
 <div style="display: flex; gap: 10px; margin-bottom: 20px;">
   <img src="images/Screenshot%202025-11-16%20152102.png" alt="Radius Expansion Parametric Study" width="300">
   <img src="images/Screenshot%202025-11-16%20165000.png" alt="Radius Collapse Parametric Study" width="300">
@@ -14,35 +14,35 @@ This file plots a single general solution of the Rayleigh–Plesset equation, pr
 
 This file tests different radii between a minimum and maximum and plots their behavior as $R(t)$. This tests the sensitivity of $R_0$. For the 1st plot (expansion) we can conclude that it takes longer for the bubble to evolve given a larger initial radius. For the 2nd plot (collapse) we can conclude that it takes longer for the bubble to collapse given a larger initial radius. Given static initial parameters of the fluid, increasing the radius will increase both evolution times of the bubble.
 
-## [rp_para_velocity.py](rp_para_velocity.py)
+## [rp_para_velocity.py](Python%20Files/rp_para_velocity.py)
 <div style="margin-bottom: 20px;">
   <img src="images/Screenshot%202025-11-16%20152214.png" alt="Velocity Parametric Study" width="300">
 </div>
 
 This file tests different initial velocities of a bubble to test the sensitivity of the velocity variable, $\dot{R}$. For the case tested here, from the spread of $R(t)$ plots we can conclude that the solution $R(t)$ is not sensitive to the velocity variable. However, if the pressure or viscosity are small for the fluid, the solution would be sensitive to the initial velocity.
 
-## [rp_para_density.py](rp_para_density.py)
+## [rp_para_density.py](Python%20Files/rp_para_density.py)
 <div style="margin-bottom: 20px;">
   <img src="images/Screenshot%202025-11-16%20152642.png" alt="Density Parametric Study" width="300">
 </div>
 
 This file tests different initial densities of a bubble to test the sensitivity of the density variable, $\rho_l$. From the spread of $R(t)$ plots, we can conclude that the solution $R(t)$ is sensitive to the density variable. This is because the high density of the liquid makes it hard to accelerate the bubble.
 
-## [rp_para_pressure.py](rp_para_pressure.py)
+## [rp_para_pressure.py](Python%20Files/rp_para_pressure.py)
 <div style="margin-bottom: 20px;">
   <img src="images/Screenshot%202025-11-16%20152323.png" alt="Pressure Parametric Study" width="300">
 </div>
 
 This file tests different initial internal pressures of a bubble to test the sensitivity of the internal pressure variable $p_B$. From the spread of $R(t)$ plots, we can conclude that the solution $R(t)$ is highly sensitive to the internal pressure of the bubble, and can produce large differences in growth and collapse.
 
-## [rp_para_stension.py](rp_para_stension.py)
+## [rp_para_stension.py](Python%20Files/rp_para_stension.py)
 <div style="margin-bottom: 20px;">
   <img src="images/Screenshot%202025-11-16%20152432.png" alt="Surface Tension Parametric Study" width="300">
 </div>
 
 This file tests different initial surface tensions of a bubble to test the sensitivity of the surface tension variable $S$. For the larger tested radii, from the spread of $R(t)$ plots we can conclude that the solution $R(t)$ is not sensitive to the surface tension variable. However, for much smaller bubbles, surface tension becomes more important because of the $\frac{2S}{R}$ scaling.
 
-## [rp_para_viscosity.py](rp_para_viscosity.py)
+## [rp_para_viscosity.py](Python%20Files/rp_para_viscosity.py)
 <div style="margin-bottom: 20px;">
   <img src="images/Screenshot%202025-11-16%20152540.png" alt="Viscosity Parametric Study" width="300">
 </div>
