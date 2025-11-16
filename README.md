@@ -38,3 +38,5 @@ $$
 
 
 This 2nd Order nonlinear ODE governs cavitation, bubble growth, and collapse under varying physical conditions.
+
+Please see Results of the parametric study in [Results.md](Results.md)
