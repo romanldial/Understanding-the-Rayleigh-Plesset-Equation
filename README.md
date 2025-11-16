@@ -9,13 +9,13 @@ The repository includes a program [rp_bubble.py](rp_bubble.py) that:
   - Let's the user choose cavitation or expansion behavior.
   - Plots the resulting bubble radius R(t) for a visualization of bubble cavitation.
 
-Parametric studys including: rp_para_radius.py, rp_para_pressure.py, rp_para_viscosity.py, rp_para_velocity.py, rp_para_stension.py, rp_para_density.py, that explore changes in:
+Parametric studys including: [rp_para_radius.py](rp_para_radius.py), [rp_para_pressure.py](rp_para_pressure.py), [rp_para_viscosity.py](rp_para_viscosity.py), [rp_para_velocity.py](rp_para_velocity.py), [rp_para_stension.py](rp_para_stension.py), [rp_para_density.py](rp_para_density.py), that explore changes in:
 
   - radius, pressure, viscosity, velocity,
   - surface tension, and density
   - affect bubble evolution.
 
-Each parametric script calls a central helper module, paraStudy.py, which runs the simulations and produces plots.
+Each parametric script calls a central helper module, [paraStudy.py](paraStudy.py), which runs the simulations and produces plots.
 
 ## Generalized Rayleigh–Plesset Equation
 
