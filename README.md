@@ -3,7 +3,7 @@ This is where I will document the code for visualizing and understanding the gen
 
 This project provides a set of Python tools for modeling bubble dynamics using the Rayleigh–Plesset equation, which governs the radius of a spherical bubble in an infinite body of liquid over time.
 
-The repository includes a program [rp_bubble.py](rp_bubble.py) that:
+The repository includes a program [rp_bubble.py](Understanding-the-Rayleigh-Plesset-Equation/Python Files/rp_bubble.py) that:
 
   - Accepts fluid and bubble initial parameters.
   - Let's the user choose cavitation or expansion behavior.
