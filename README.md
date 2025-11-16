@@ -3,19 +3,19 @@ This is where I will document the code for visualizing and understanding the gen
 
 This project provides a set of Python tools for modeling bubble dynamics using the Rayleigh–Plesset equation, which governs the radius of a spherical bubble in an infinite body of liquid over time.
 
-The repository includes a program [rp_bubble.py](Python Files/rp_bubble.py) that:
+The repository includes a program [rp_bubble.py](Python%20Files/rp_bubble.py) that:
 
   - Accepts fluid and bubble initial parameters.
   - Let's the user choose cavitation or expansion behavior.
   - Plots the resulting bubble radius R(t) for a visualization of bubble cavitation.
 
-Parametric studys including: [rp_para_radius.py](Python Files/rp_para_radius.py), [rp_para_pressure.py](Python Files/rp_para_pressure.py), [rp_para_viscosity.py](rp_para_viscosity.py), [rp_para_velocity.py](rp_para_velocity.py), [rp_para_stension.py](rp_para_stension.py), [rp_para_density.py](rp_para_density.py), that explore changes in:
+Parametric studys including: [rp_para_radius.py](Python%20Files/rp_para_radius.py), [rp_para_pressure.py](Python%20Files/rp_para_pressure.py), [rp_para_viscosity.py](Python%20Files/rp_para_viscosity.py), [rp_para_velocity.py](Python%20Files/rp_para_velocity.py), [rp_para_stension.py](Python%20Files/rp_para_stension.py), [rp_para_density.py](Python%20Files/rp_para_density.py), that explore changes in:
 
   - radius, pressure, viscosity, velocity,
   - surface tension, and density
   - affect bubble evolution.
 
-Each parametric script calls a central helper module, [paraStudy.py](paraStudy.py), which runs the simulations and produces plots.
+Each parametric script calls a central helper module, [paraStudy.py](Python%20Files/paraStudy.py), which runs the simulations and produces plots.
 
 ## Generalized Rayleigh–Plesset Equation
 
@@ -39,4 +39,4 @@ $$
 
 This 2nd Order nonlinear ODE governs cavitation, bubble growth, and collapse under varying physical conditions.
 
-Please see Results of the parametric study in [Results.md](Results.md)
+Please see Results of the parametric study in [Results.md](Results/Results.md)
