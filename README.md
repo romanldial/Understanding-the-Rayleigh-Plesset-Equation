@@ -1,43 +1,43 @@
-# Understanding the Rayleigh-Plesset Equation
-This is where I will document the code for visualizing and understanding the generalized Rayleigh-Plesset Equation. 
+# Understanding the Rayleigh–Plesset Equation
 
-This project provides a set of Python tools for modeling bubble dynamics using the Rayleigh–Plesset equation, which governs the radius of a spherical bubble in an infinite body of liquid over time.
+This repository contains Python tools for visualizing and analyzing the generalized Rayleigh–Plesset equation (RPE), which governs the radius of a spherical bubble in an infinite liquid.
 
-The repository includes a program [rp_bubble.py](Python%20Files/rp_bubble.py) that:
+The main script **[`RPEbubbleEvo.py`](Python%20Files/RPEbubbleEvo)** plots the non-dimensional bubble radius $R(t)/R_0$ against the non-dimensional time $U_{\rm ref} t / R_0$.
 
-  - Accepts fluid and bubble initial parameters.
-  - Let's the user choose cavitation or expansion behavior.
-  - Plots the resulting bubble radius R(t) for a visualization of bubble cavitation.
+The simulation also computes the Reynolds and Weber numbers exactly as implemented in the code:
 
-Parametric studys including: [rp_para_radius.py](Python%20Files/rp_para_radius.py), [rp_para_pressure.py](Python%20Files/rp_para_pressure.py), [rp_para_viscosity.py](Python%20Files/rp_para_viscosity.py), [rp_para_velocity.py](Python%20Files/rp_para_velocity.py), [rp_para_stension.py](Python%20Files/rp_para_stension.py), [rp_para_density.py](Python%20Files/rp_para_density.py), that explore changes in:
+$Re = \rho_L U_{\rm ref} R_0 / \mu$  
+$We = \rho_L U_{\rm ref}^2 R_0 / S$
 
-  - radius, pressure, viscosity, velocity,
-  - surface tension, and density
-  - affect bubble evolution.
+Where:   $\mu = \rho_L \nu_L$
 
-Each parametric script calls a central helper module, [paraStudy.py](Python%20Files/paraStudy.py), which runs the simulations and produces plots.
+---
 
-## Generalized Rayleigh–Plesset Equation
+# Generalized Rayleigh–Plesset Equation
 
-The Rayleigh–Plesset equation describes the radial dynamics of a spherical bubble in an incompressible fluid.  
-It is given by:
+Under adiabatic or polytropic gas compression, the Rayleigh–Plesset equation is:
 
 $$
-\frac{p_B(t) - p_\infty(t)}{\rho_L} = R\\ddot{R} + \frac{3}{2}\dot{R}^2 + \frac{4\nu_L}{R}\dot{R} + \frac{2S}{\rho_L R}
+\frac{p_B(t)-p_\infty(t)}{\rho_L} + \frac{p_{G0}}{\rho_L}\left(\frac{R_0}{R}\right)^{3k} = R\ddot{R} + \frac{3}{2}\dot{R}^2 + \frac{4\nu_L}{R}\dot{R} + \frac{2S}{\rho_L R}.
 $$
 
 ### Where:
-- $\( R(t) \)$ — bubble radius  
-- $\( \dot{R} = \frac{dR}{dt} \)$ — bubble wall velocity  
-- $\( \ddot{R} = \frac{d^2R}{dt^2} \)$ — bubble wall acceleration  
-- $\( \rho_L \)$ — liquid density  
-- $\( \nu_L \)$ — kinematic viscosity  
-- $\( S \)$ — surface tension  
-- $\( p_B(t) \)$ — pressure inside the bubble  
-- $\( p_\infty(t) \)$ — far-field (ambient) pressure  
+- $R(t)$ — bubble radius  
+- $\dot{R}$ — bubble wall velocity  
+- $\ddot{R}$ — bubble wall acceleration  
+- $R_0$ — initial bubble radius  
+- $k$ — polytropic exponent  
+- $p_{G0}$ — initial gas pressure  
+- $\rho_L$ — liquid density  
+- $\nu_L$ — kinematic viscosity  
+- $S$ — surface tension  
+- $p_B(T)$ — bubble internal pressure  
+- $p_\infty(t)$ — far-field liquid pressure  
 
+This nonlinear second-order ODE governs bubble growth, collapse, and cavitation behavior.
 
-This 2nd Order nonlinear ODE governs cavitation, bubble growth, and collapse under varying physical conditions.
+---
 
-## Results
-Please see Results of the parametric study in [Results.md](Results/Results.md).
+# Results
+
+Results are available here: **[`Results.md`](Results/Results.md)**
