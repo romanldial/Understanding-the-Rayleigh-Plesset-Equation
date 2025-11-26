@@ -21,7 +21,7 @@ When considering these trends in addition to those above, we can conclude two th
 
 ---
 
-# Tables of Inputs
+# Table of Inputs
 Here is a collection of tables for input values used to generate the images above. 
 
 |        | Re= 1.3e4; We=9.6e5 | Re= 4.4 ; We= 1.3e2 | Re= 6.2e2; We= 5.2e4 | Re=3e-2 ; We= 8e1 | Re= 7.5e3; We=1.2e6 | Re= 2.3e-1; We=5.8 |
