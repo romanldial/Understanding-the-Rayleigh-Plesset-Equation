@@ -2,7 +2,7 @@
 
 This repository contains Python tools for visualizing and analyzing the generalized Rayleigh–Plesset equation (RPE), which governs the radius of a spherical bubble in an infinite liquid.
 
-The main script **[`RPEbubbleEvo.py`](Python%20Files/RPEbubbleEvo)** plots the non-dimensional bubble radius $R(t)/R_0$ against the non-dimensional time $U_{\rm ref} t / R_0$.
+The main script **[`RPEbubbleEvo.py`](Python%20Files/RPEbubbleEvo.py)** plots the non-dimensional bubble radius $R(t)/R_0$ against the non-dimensional time $U_{\rm ref} t / R_0$.
 
 The simulation also computes the Reynolds and Weber numbers exactly as implemented in the code:
 
