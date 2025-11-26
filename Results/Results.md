@@ -1,9 +1,9 @@
 # Results
 ---
 ### Oscilation, Frequency, and Damping Considerations
-| ![Screenshot 2025-11-25 163211.png](Results/images/Screenshot%202025-11-25%20163211.png) | ![Screenshot 2025-11-25 163810.png](Results/images/Screenshot%202025-11-25%20163810.png) |
+| ![Screenshot 2025-11-25 163211.png](images/Screenshot%202025-11-25%20163211.png) | ![Screenshot 2025-11-25 163810.png](images/Screenshot%202025-11-25%20163810.png) |
 |---|---|
-| ![Screenshot 2025-11-25 163058.png](Results/images/Screenshot%202025-11-25%20163058.png) | ![Screenshot 2025-11-25 162936.png](Results/images/Screenshot%202025-11-25%20162936.png) |
+| ![Screenshot 2025-11-25 163058.png](images/Screenshot%202025-11-25%20163058.png) | ![Screenshot 2025-11-25 162936.png](images/Screenshot%202025-11-25%20162936.png) |
 
 _The below assumptions are made in scale with the magnitudes of $Re$ and $We$ tested._
 
@@ -14,7 +14,7 @@ When considering the Weber Number $(We)$, we can conclude that the trends show t
 ---
 
 ### Magnitude and Evolution Considerations
-| ![Screenshot 2025-11-25 163136.png](Results/images/Screenshot%202025-11-25%20163136.png) | ![Screenshot 2025-11-25 165651.png](Results/images/Screenshot%202025-11-25%20165651.png) |
+| ![Screenshot 2025-11-25 163136.png](images/Screenshot%202025-11-25%20163136.png) | ![Screenshot 2025-11-25 165651.png](images/Screenshot%202025-11-25%20165651.png) |
 |---|---|
 
 When considering these trends in addition to those above, we can conclude two things. One: with a **low** $Re$ and a **low** $We$, the bubble trends to collapse once and damp out quickly. Two: with a **high** $Re$ and a **high** $We$ the bubble ocilates many times before settling. 
