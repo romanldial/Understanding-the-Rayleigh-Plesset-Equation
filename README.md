@@ -42,4 +42,4 @@ This nonlinear second-order ODE governs bubble growth, collapse, and cavitation 
 
 # Using **[`RPEbubbleEvo.py`](Python%20Files/RPEbubbleEvo.py)**
 
-To use this simulation, simply choose a test case and input values from the [Inputs](Results/Results.md#Inputs) data table. There will be a couple simulation options, feel free to either use the simulation data or input your own values; the script does the work!
+To use this simulation, simply choose a test case and input values from the [Inputs](Results/Results.md#Table-of-Inputs) data table. There will be a couple simulation options, feel free to either use the simulation data or input your own values; the script does the work!
