@@ -1,6 +1,7 @@
 # Results
 ---
 ![Screenshot 2025-11-25 163211.png](images/Screenshot\ 2025-11-25\ 163211.png) ![Screenshot 2025-11-25 163810.png](images/Screenshot\ 2025-11-25\ 163810.png)
+
 !['Screenshot 2025-11-25 163058.png'](images/Screenshot\ 2025-11-25\ 163058.png) !['Screenshot 2025-11-25 162936.png'](images/Screenshot\ 2025-11-25\ 162936.png)
 
 When considering the Reynalds Number $(Re)$, we can conclude that the trends show that decreasing $Re$ by an order of magnitude visually **increases** the frequency of the bubble oscilation, and the amplitude of the dimensionless radius **decreases** throughout the oscilation. This is because in lowering $Re$ the viscous forces become more prominent, in turn they damp the system more. The opposite is shown in the high $Re$ where the inertial forces dominate and the bubble continues to oscilate. Hence, **we can see a trend in the bubbles evolution lasting longer with a higher $Re$**.
