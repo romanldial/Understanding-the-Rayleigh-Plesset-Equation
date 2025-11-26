@@ -11,6 +11,8 @@ $We = \rho_L U_{\rm ref}^2 R_0 / S$
 
 Where:   $\mu = \rho_L \nu_L$
 
+The quantification of the dimensionless Reynalds Number $(Re)$ and the dimensionless Weber Number $(We)$ allow us to coralate inner term dominance to bubble evolution behavior. The results and observations are available here: **[`Results.md`](Results/Results.md)**
+
 ---
 
 # Generalized Rayleigh–Plesset Equation
@@ -38,6 +40,6 @@ This nonlinear second-order ODE governs bubble growth, collapse, and cavitation 
 
 ---
 
-# Results
+# Using **[`RPEbubbleEvo.py`](Python%20Files/RPEbubbleEvo.py)**
 
-Results are available here: **[`Results.md`](Results/Results.md)**
+To use this simulation, simply choose a test case and input values from the [Inputs](Results/Results.md#Inputs) data table. There will be a couple simulation options, feel free to either use the simulation data or input your own values; the script does the work!
