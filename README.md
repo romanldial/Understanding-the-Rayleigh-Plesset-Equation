@@ -11,7 +11,7 @@ $We = \rho_L U_{\rm ref}^2 R_0 / S$
 
 Where:   $\mu = \rho_L \nu_L$
 
-The quantification of the dimensionless Reynalds Number $(Re)$ and the dimensionless Weber Number $(We)$ allow us to coralate inner term dominance to bubble evolution behavior. The results and observations are available here: **[`Results.md`](Results/Results.md)**
+The quantification of the dimensionless Reynalds Number $(Re)$ and the dimensionless Weber Number $(We)$ allow us to correlate inner term dominance to bubble evolution behavior. The results and observations are available here: **[`Results.md`](Results/Results.md)**
 
 ---
 
