@@ -43,3 +43,28 @@ This nonlinear second-order ODE governs bubble growth, collapse, and cavitation 
 # Using **[`RPEbubbleEvo.py`](Python%20Files/RPEbubbleEvo.py)**
 
 To use this simulation, simply choose a test case and input values from the [Inputs](Results/Results.md#Table-of-Inputs) data table. There will be a couple simulation options, feel free to either use the simulation data or input your own values; the script does the work!
+
+---
+
+# Validation 
+
+Below is an analytical solution for the Rayleigh-Plesset Equation considering the N-dimensional Spherical Bubble. This high-accuracy series solution will be a reference for verifying my bubble-dynamics model. 
+
+> Wang, Z., Qin, Y.-P., & Zou, L. (2017). Analytical solutions of the Rayleigh–Plesset equation for N-dimensional spherical bubbles. *Science China Physics, Mechanics & Astronomy, 60*(10), 104721 https://link.springer.com/content/pdf/10.1007/s11433-017-9074-x.pdf
+
+| ![](Results/images/Screenshot%202025-11-30%20125943.png) |
+|---|
+
+Showing periodic expansion and contraction of the bubble, it can be seen from this image that the solution for $R(t)$ can be represented by a **harmonic oscilator**. This is important because it means that my solutions in [Results](Results/Results.md) represent the same physics as the plot above. 
+
+
+Below is a Numerical Solution of the Rayleigh-Plesset Equation. Just like in my physics implementation, this work assumes a polytropic process for the gas inside the bubble.
+
+> Jannati, K., Siri, E., & Sadremomtaz, A. (2019). *Numerical Solution of Rayleigh–Plesset Equation*. 3rd Iranian Conference on Mathematical Physics. https://www.researchgate.net/publication/330133759_Numerical_Solution_of_Rayleigh-Plesset_Equation
+
+| ![](Results/images/Screenshot 2025-11-30 131935.png) |
+|---|
+
+Their simulation also exhibits **harmonic oscillations**, but with a **gradually varying amplitude** in the dimensionless radius over time. Observing the same amplitude modulation in my results provides an additional confirmation that my simulation captures the correct nonlinear physics of bubble oscillations.
+
+---
