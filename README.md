@@ -62,7 +62,7 @@ Below is a Numerical Solution of the Rayleigh-Plesset Equation. Just like in my 
 
 > Jannati, K., Siri, E., & Sadremomtaz, A. (2019). *Numerical Solution of Rayleigh–Plesset Equation*. 3rd Iranian Conference on Mathematical Physics. https://www.researchgate.net/publication/330133759_Numerical_Solution_of_Rayleigh-Plesset_Equation
 
-| ![](Results/images/Screenshot 2025-11-30 131935.png) |
+| ![](Results/images/Screenshot%202025-11-30%20131935.png) |
 |---|
 
 Their simulation also exhibits **harmonic oscillations**, but with a **gradually varying amplitude** in the dimensionless radius over time. Observing the same amplitude modulation in my results provides an additional confirmation that my simulation captures the correct nonlinear physics of bubble oscillations.
